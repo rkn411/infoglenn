@@ -33,7 +33,6 @@ public class UIWrappers  {
 	 * @throws Exception 
 	 */
 	public static void clickOnElement(WebElement element) throws Exception {
-		Thread.sleep(8000);
 		element.click();
 	}
 	public static void clickOnElement(By element) {
